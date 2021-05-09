@@ -1,0 +1,26 @@
+
+body{
+    background:cadetblue;
+}
+
+
+.ABC,.ABCD{
+    
+    display:flex ;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.items{
+    background-color:rgb(255, 248, 220);
+    border:black solid ;
+}
+.L2{
+    display:flex;
+    color:cadetblue;
+    justify-content: flex-start;
+  }
+  .rt{
+      display: flex;
+      justify-content: end;
+  }
